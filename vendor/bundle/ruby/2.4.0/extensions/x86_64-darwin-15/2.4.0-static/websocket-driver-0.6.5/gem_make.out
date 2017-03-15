@@ -1,0 +1,15 @@
+current directory: /Users/kawashima/bitbucket/sakura-market/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+/Users/kawashima/.rbenv/versions/2.4.0/bin/ruby -r ./siteconf20170315-92982-6gmuo8.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kawashima/bitbucket/sakura-market/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/kawashima/bitbucket/sakura-market/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/kawashima/bitbucket/sakura-market/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20170315-92982-qfzdex
