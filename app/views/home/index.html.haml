@@ -21,6 +21,6 @@
 
 .container
   - if user_signed_in?
-    Logged in as
-    %strong= current_user.email
+    %strong= current_user.name
+    = current_user.address
     %p= link_to "プロフィールを編集する", edit_user_registration_path, class: 'navbar-link'
